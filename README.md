@@ -6,6 +6,8 @@ This repository contains the "Digital Brain" of the MU-32 particle detector. It 
 
 The system utilizes custom VHDL Finite State Machines and parallel SPI controllers to achieve a continuous **1 MSPS sampling rate** across 16 independent SiPM channels with virtually zero dead time. High-speed transient data is routed via AXI-Stream DMA to an ARM Cortex-A9 processor, where a Python-based analytics engine executes centroid vector mathematics and inverse-square law approximations to render live 3D spatial heat-maps of subatomic particle strikes.
 
+<img width="975" height="179" alt="image" src="https://github.com/user-attachments/assets/ddb26541-03c7-42a3-a574-3f555e15a3a2" />
+
 ## Features
 * **Zero Dead-Time DAQ:** Hardware-level triggering packages 20-microsecond high-energy event windows into 256-bit packets, completely ignoring thermal background noise.
 * **1 MSPS Parallel Acquisition:** Synchronous reading of 8 external ADCs prevents timing skew across the 16-channel physical array.
@@ -40,5 +42,5 @@ To run the live dashboard on your own PYNQ-Z2 board without recompiling the hard
 
 ## Team
 * **Alireza Bolourian** - SoC Architecture & Digital Data Pipeline
-* Thomas Schotik  - Analog Circuit Design
-* Ernesto Gonzalez  - Muon Trajectory Calculations
+* **Thomas Schotik**  - Analog Circuit Design
+* **Ernesto Gonzalez**  - Muon Trajectory Calculations
