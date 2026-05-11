@@ -1,0 +1,98 @@
+{
+   "ActiveEmotionalView":"Interfaces View",
+   "Default View_ScaleFactor":"0.492357",
+   "Default View_TopLeft":"-122,-100",
+   "Display-PortTypeClock":"false",
+   "Display-PortTypeOthers":"false",
+   "Display-PortTypeReset":"false",
+   "ExpandedHierarchyInLayout":"",
+   "HideNet":"/sim_clk_gen_0_clk|/processing_system7_0_FCLK_CLK0|/proc_sys_reset_0_peripheral_aresetn|/processing_system7_0_FCLK_RESET0_N|/rst_ps7_0_100M_peripheral_aresetn|/proc_sys_reset_0_peripheral_reset|",
+   "Interfaces View_ExpandedHierarchyInLayout":"",
+   "Interfaces View_Layers":"/sim_clk_gen_0_clk:false|/processing_system7_0_FCLK_CLK0:false|/proc_sys_reset_0_peripheral_aresetn:false|/processing_system7_0_FCLK_RESET0_N:false|/rst_ps7_0_100M_peripheral_aresetn:false|/proc_sys_reset_0_peripheral_reset:false|",
+   "Interfaces View_Layout":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 1570 -y 70 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 1570 -y 90 -defaultsOSRD
+preplace inst muon_trigger_16ch_0 -pg 1 -lvl 2 -x 140 -y 220 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 3 -x 380 -y 220 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 4 -x 680 -y 110 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 6 -x 1330 -y 100 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 3 -x 380 -y 110 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -x 970 -y 110 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 680 -y 220 -defaultsOSRD
+preplace netloc AD1_mega_controller_0_CS 1 6 1 NJ 790n
+preplace netloc AD1_mega_controller_0_DATA_OUT 1 1 6 400 660n NJ 660n NJ 660n NJ 660n NJ 660n 2210
+preplace netloc AD1_mega_controller_0_SAMPLE_VALID 1 1 6 390 670n NJ 670n NJ 670n NJ 670n NJ 670n 2220
+preplace netloc AD1_mega_controller_0_SCLK 1 6 1 NJ 770n
+preplace netloc SDATA_0_1 1 0 6 NJ 830n NJ 830n NJ 830n NJ 830n NJ 830n 1740J
+preplace netloc axi_gpio_0_gpio_io_o 1 1 4 400 430n NJ 430n 1040J 460n 1420
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 2 370 440n 740J
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 5 N 710n NJ 710n NJ 710n NJ 710n 1740J
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 6 400 220n 750 220n 1080 200n 1430 20n 1750 40n 2210
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 30 310n 370 230n NJ 230n 1070J 260n NJ 260n NJ 260n 2210
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 2 3 740 260n 1060 210n 1440
+preplace netloc sim_clk_gen_0_clk 1 0 6 20 810n 380 680n 760 700n NJ 700n NJ 700n 1750J
+preplace netloc xlconstant_0_dout 1 5 1 NJ 770n
+preplace netloc S00_AXI_1 1 4 1 N 110
+preplace netloc axi_interconnect_0_M00_AXI 1 5 1 N 110
+preplace netloc axi_smc_M00_AXI 1 3 1 N 100
+preplace netloc axi_smc_M01_AXI 1 3 1 520 120n
+preplace netloc axis_data_fifo_0_M_AXIS 1 3 1 530 120n
+preplace netloc muon_trigger_16ch_0_M_AXIS 1 2 1 N 220
+preplace netloc processing_system7_0_DDR 1 6 1 NJ 70
+preplace netloc processing_system7_0_FIXED_IO 1 6 1 NJ 90
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 5 240 10 NJ 10 NJ 10 NJ 10 1550
+levelinfo -pg 1 0 20 140 380 680 970 1330 1570
+pagesize -pg 1 -db -bbox -sgen 0 0 1690 280
+",
+   "Interfaces View_ScaleFactor":"0.744526",
+   "Interfaces View_TopLeft":"42,-227",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 2250 -y 100 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2250 -y 120 -defaultsOSRD
+preplace port port-id_sysclk -pg 1 -lvl 0 -x 0 -y 670 -defaultsOSRD
+preplace portBus cs -pg 1 -lvl 7 -x 2250 -y 790 -defaultsOSRD
+preplace portBus sclk -pg 1 -lvl 7 -x 2250 -y 770 -defaultsOSRD
+preplace portBus sdata -pg 1 -lvl 0 -x 0 -y 830 -defaultsOSRD
+preplace inst AD1_mega_controller_0 -pg 1 -lvl 6 -x 1980 -y 760 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -x 1590 -y 770 -defaultsOSRD
+preplace inst muon_trigger_16ch_0 -pg 1 -lvl 2 -x 570 -y 540 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 3 -x 900 -y 570 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 4 -x 1250 -y 100 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 6 -x 1980 -y 150 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 3 -x 900 -y 350 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -x 570 -y 330 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -x 1590 -y 140 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 200 -y 710 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1250 -y 380 -defaultsOSRD
+preplace netloc AD1_mega_controller_0_CS 1 6 1 NJ 790
+preplace netloc AD1_mega_controller_0_DATA_OUT 1 1 6 400 660 NJ 660 NJ 660 NJ 660 NJ 660 2180
+preplace netloc AD1_mega_controller_0_SAMPLE_VALID 1 1 6 390 670 NJ 670 NJ 670 NJ 670 NJ 670 2190
+preplace netloc AD1_mega_controller_0_SCLK 1 6 1 NJ 770
+preplace netloc SDATA_0_1 1 0 6 NJ 830 NJ 830 NJ 830 NJ 830 NJ 830 1730J
+preplace netloc axi_gpio_0_gpio_io_o 1 1 4 400 430 NJ 430 1030J 460 1410
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 2 370 440 740J
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 5 N 710 NJ 710 NJ 710 NJ 710 1730J
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 6 400 220 760 220 1090 200 1440 20 1780 40 2180
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 30 310 370 230 NJ 230 1080J 260 NJ 260 NJ 260 2180
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 2 3 750 260 1070 210 1450
+preplace netloc sim_clk_gen_0_clk 1 0 6 20 810 380 680 770 700 NJ 700 NJ 700 1740J
+preplace netloc xlconstant_0_dout 1 5 1 NJ 770
+preplace netloc S00_AXI_1 1 4 1 N 80
+preplace netloc axi_interconnect_0_M00_AXI 1 5 1 N 140
+preplace netloc axi_smc_M00_AXI 1 3 1 1030 60n
+preplace netloc axi_smc_M01_AXI 1 3 1 N 360
+preplace netloc axis_data_fifo_0_M_AXIS 1 3 1 1040 80n
+preplace netloc muon_trigger_16ch_0_M_AXIS 1 2 1 N 540
+preplace netloc processing_system7_0_DDR 1 6 1 NJ 100
+preplace netloc processing_system7_0_FIXED_IO 1 6 1 NJ 120
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 5 770 270 NJ 270 NJ 270 NJ 270 2190
+levelinfo -pg 1 0 200 570 900 1250 1590 1980 2250
+pagesize -pg 1 -db -bbox -sgen -130 0 2370 850
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_ps7_cnt":"1"
+}
